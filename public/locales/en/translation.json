@@ -1,0 +1,42 @@
+{
+  "card": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact me"
+  },
+  "home": {
+    "name": "Thomas Guyot",
+    "job": "Web Developper Junior",
+    "location": "Paris and arround - Remote"
+  },
+  "contact": {
+    "me": "Feel free to contact me !",
+    "linkedin": "LinkedIn",
+    "github": "My repository GitHub",
+    "mail": "Send me a Mail"
+  },
+  "about": {
+    "welcome": "Hello, I am Thomas",
+    "title": "Developper Full Stack",
+    "onlinecv": "Online resume",
+    "offlinecv": "Download my resume (pdf)",
+    "project": "My short term ambition",
+    "p1": "Leave my old job and be a full time coder",
+    "p2": "Meanwhile, I'll keep myself learning :",
+    "p3": "- More on TypeScript",
+    "p4": "- Start to learn NextJS"
+  },
+  "projects": {
+    "title": "Projects I made",
+    "type1": "CodeCamp OpenClassRooms",
+    "type2": "Personal projects",
+    "p1": "Project 1",
+    "p2": "Project 2",
+    "p3": "Project 3",
+    "p4": "Project 4",
+    "p5": "Project 5",
+    "p6": "Project 6",
+    "p8": "This portfolio"
+  }
+}

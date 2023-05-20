@@ -1,0 +1,42 @@
+{
+    "card": {
+      "home": "Accueil",
+      "about": "À propos",
+      "projects": "Projets",
+      "contact": "Me contacter"
+    },
+    "home": {
+      "name": "Thomas Guyot",
+      "job": "Developpeur Web Junior",
+      "location": "Region parisienne - À distance"
+    },
+    "contact": {
+      "me": "N'hésitez pas à me contacter !",
+      "linkedin": "LinkedIn",
+      "github": "Mon repo GitHub",
+      "mail": "Par Mail"
+    },
+    "about": {
+      "welcome": "Bienvenue, je suis Thomas",
+      "title": "Developpeur Full Stack",
+      "onlinecv": "CV en ligne",
+      "offlinecv": "CV à télécharger (pdf)",
+      "project": "Mes projets à court terme",
+      "p1": "Quitter la fonction publique pour pouvoir coder à 100%, avec vous ?",
+      "p2": "Je continue de me former, les deux prochaines étapes sont :",
+      "p3": "- Continuer de developper sur TypeScript",
+      "p4": "- Me former sur NextJS"
+    },
+    "projects": {
+      "title": "Projets réalisés",
+      "type1": "Dans le cadre de la formation OpenClassRooms",
+      "type2": "Les projets persos",
+      "p1": "Projet 1",
+      "p2": "Projet 2",
+      "p3": "Projet 3",
+      "p4": "Projet 4",
+      "p5": "Projet 5",
+      "p6": "Projet 6",
+      "p8": "Ce portfolio"
+    }
+}

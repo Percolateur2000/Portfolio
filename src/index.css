@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.active {
+    @apply bg-first text-fourth
+}
+
+.projects {
+    @apply border-2 border-first rounded-xl p-2 w-3/5 flex justify-center
+}
