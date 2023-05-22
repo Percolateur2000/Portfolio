@@ -7,7 +7,7 @@
     },
     "home": {
       "name": "Thomas Guyot",
-      "job": "Developpeur Web Junior",
+      "job": "Developpeur Web Junior FullStack",
       "location": "Region parisienne - À distance"
     },
     "contact": {
@@ -18,7 +18,7 @@
     },
     "about": {
       "welcome": "Bienvenue, je suis Thomas",
-      "title": "Developpeur Full Stack",
+      "title": "Developpeur Web Junior FullStack",
       "onlinecv": "CV en ligne",
       "offlinecv": "CV à télécharger (pdf)",
       "project": "Mes projets à court terme",
@@ -29,7 +29,7 @@
     },
     "projects": {
       "title": "Projets réalisés",
-      "type1": "Dans le cadre de la formation OpenClassRooms",
+      "type1": "Avec OpenClassRooms",
       "type2": "Les projets persos",
       "p1": "Projet 1",
       "p2": "Projet 2",

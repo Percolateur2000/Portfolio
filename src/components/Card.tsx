@@ -7,9 +7,9 @@ interface CardDetail {
 
 const Card = (props:CardDetail) => {
     return (
-    <NavLink className={"h-1/5 w-full bg-third text-black p-[7px] border-2 border-black rounded-lg"}
+    <NavLink className={"h-1/5 w-full bg-indigo-800 text-white p-[7px] border-2 border-white rounded-lg"}
     to={props.cardDestination}>
-    <div className="border-2 border-black w-full h-full flex items-center justify-center rounded-lg">
+    <div className="w-full h-full flex items-center justify-center rounded-lg">
     {props.cardName}
     </div>
 </NavLink>);

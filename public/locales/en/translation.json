@@ -7,7 +7,7 @@
   },
   "home": {
     "name": "Thomas Guyot",
-    "job": "Web Developper Junior",
+    "job": "Web Developper Junior Full Stack",
     "location": "Paris and arround - Remote"
   },
   "contact": {
@@ -18,7 +18,7 @@
   },
   "about": {
     "welcome": "Hello, I am Thomas",
-    "title": "Developper Full Stack",
+    "title": "Web Developper Junior Full Stack",
     "onlinecv": "Online resume",
     "offlinecv": "Download my resume (pdf)",
     "project": "My short term ambition",

@@ -15,34 +15,36 @@ const lngs = {
 };
 
 const App = () => {
+
   const { t, i18n } = useTranslation();
 
   return (
-    <section className="lg:h-screen w-screen flex items-center justify-center bg-second">
-      <div className="lg:hidden ">
+    <section id="bg" className="h-screen w-screen lg:flex items-center justify-center bg-black">
+      <div className="lg:hidden h-screen py-2 overflow-hidden">
         <Router>
-        <div>
+        <div className="mMenu">
             <NavLink to="home">
             Accueil
             </NavLink>
           </div>
-          <div>
+          <div className="mMenu">
             <NavLink to="about">
             A propos
             </NavLink>
           </div>        
-          <div>
+          <div className="mMenu">
             <NavLink to="projects">
             Projets réalisés
             </NavLink>
           </div>          
-          <div>
+          <div className="mMenu pb-3">
             <NavLink to="contact">
             Me contacter
             </NavLink>
           </div>
           <div className="h-full w-full">
         <Routes>
+          <Route path="*" element={<Home />} />
           <Route path="home" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="projects" element={<Projects />} />
@@ -53,10 +55,10 @@ const App = () => {
         <div>
         </div>
       </div>
-    <div className="hidden lg:flex items-center justify-center w-4/5 h-4/6 gap-20 ">
+    <div className="hidden lg:flex lg:items-center lg:justify-center w-4/5 h-4/6 gap-20 ">
       <Router>
-        <div className="h-full w-1/5 flex flex-col ">
-        <div className="h-full w-full flex flex-col  gap-8 justify-evenly">
+        <div className="h-full w-1/5 flex flex-col">
+        <div className="h-full w-full flex flex-col gap-8 justify-evenly">
         <Card 
         cardDestination='home'
         cardName={t('card.home')}
@@ -73,17 +75,18 @@ const App = () => {
         cardDestination='contact'
         cardName={t('card.contact')}
         />
-            <div className="flex justify-between">
+          <div className="flex justify-between ">
           {Object.keys(lngs).map((lng) => (
-            <button key={lng} style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }} type="submit" onClick={() => i18n.changeLanguage(lng)}>
-              {lngs[lng as keyof typeof lngs].nativeName}
+            <button key={lng} style={{ border: i18n.resolvedLanguage === lng ? "white solid 2px" : "", width: "90px", padding: '4px 8px 4px 8px', borderRadius: '10px', backgroundColor: i18n.resolvedLanguage === lng ? '#818cf8' : 'white', fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }} type="submit" onClick={() => i18n.changeLanguage(lng)}>
+            {lngs[lng as keyof typeof lngs].nativeName}
             </button>
           ))}
         </div>
       </div>
         </div>
-        <div className="h-full w-full">
+        <div className="h-full w-full ">
         <Routes>
+          <Route path="*" element={<Home />} />
           <Route path="home" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="projects" element={<Projects />} />
