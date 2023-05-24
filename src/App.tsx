@@ -19,7 +19,8 @@ const App = () => {
   const { t, i18n } = useTranslation();
 
   return (
-    <section id="bg" className="h-screen w-screen lg:flex items-center justify-center bg-black">
+    <section id="bg" className="h-screen w-screen lg:flex items-center justify-center">
+      {/* nav on mobile */}
       <div className="lg:hidden h-screen py-2 overflow-hidden">
         <Router>
         <div className="mMenu">
@@ -55,6 +56,7 @@ const App = () => {
         <div>
         </div>
       </div>
+      {/*  nav on desktop */}
     <div className="hidden lg:flex lg:items-center lg:justify-center w-4/5 h-4/6 gap-20 ">
       <Router>
         <div className="h-full w-1/5 flex flex-col">
@@ -75,27 +77,29 @@ const App = () => {
         cardDestination='contact'
         cardName={t('card.contact')}
         />
-          <div className="flex justify-between ">
+          <div className="flex justify-between">
           {Object.keys(lngs).map((lng) => (
-            <button key={lng} style={{ border: i18n.resolvedLanguage === lng ? "white solid 2px" : "", width: "90px", padding: '4px 8px 4px 8px', borderRadius: '10px', backgroundColor: i18n.resolvedLanguage === lng ? '#818cf8' : 'white', fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }} type="submit" onClick={() => i18n.changeLanguage(lng)}>
+            <button key={lng} 
+            className={"cardAnimation"} 
+            style={{ color: i18n.resolvedLanguage === lng ? "white" : "black", border: i18n.resolvedLanguage === lng ? "white solid 2px" : "", width: "90px", padding: '4px 8px 4px 8px', borderRadius: '10px', backgroundColor: i18n.resolvedLanguage === lng ? '#818cf8' : 'white', fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }} type="submit" onClick={() => i18n.changeLanguage(lng)}>
             {lngs[lng as keyof typeof lngs].nativeName}
             </button>
           ))}
         </div>
       </div>
         </div>
-        <div className="h-full w-full ">
+        <div className="h-full w-full box">
         <Routes>
-          <Route path="*" element={<Home />} />
+          <Route index element={<Home />} />
           <Route path="home" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="projects" element={<Projects />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="*" element={<Home />} />
         </Routes>
         </div>
       </Router>
     </div>
-
     </section>
   );
 };

@@ -7,7 +7,7 @@ interface CardDetail {
 
 const Card = (props:CardDetail) => {
     return (
-    <NavLink className={"h-1/5 w-full bg-indigo-800 text-white p-[7px] border-2 border-white rounded-lg"}
+    <NavLink className={({isActive}) => !isActive ? "cardDecoration cardAnimation cardBorder" : "cardDecoration active"}
     to={props.cardDestination}>
     <div className="w-full h-full flex items-center justify-center rounded-lg">
     {props.cardName}

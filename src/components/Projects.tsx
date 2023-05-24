@@ -5,7 +5,7 @@ const Projects = () => {
     const { t } = useTranslation();
 
     return (
-        <div className="bg-slate-300 w-full h-full overflow-auto rounded-xl p-2">
+        <div className="bg-slate-300 w-full h-full overflow-auto rounded-xl p-2 boxAnimation">
             <div className='h-full flex pt-8 items-center flex-col'>
                 <h4 className='text-2xl mb-8'>{t('projects.title')}</h4>
                 <h5 className='text-xl mb-8'>{t('projects.type1')}</h5>

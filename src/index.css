@@ -2,8 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-.active {
-    @apply bg-black text-indigo-400 lg:bg-indigo-400 lg:text-white underline lg:no-underline
+.cardDecoration {
+    @apply h-1/5 w-full !bg-indigo-800 text-white p-[7px] 
+}
+
+.cardAnimation {
+    @apply transition hover:scale-105 ease-out duration-300
 }
 
 .projects {
@@ -12,4 +16,94 @@
 
 .mMenu {
     @apply text-white pl-6
+}
+
+body {
+    background-color: #403060;
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.boxAnimation {
+    animation: fade-in ease-out 0.8s;
+}
+
+@keyframes fade-in {
+    0% {opacity: 0;
+    transform: translateY(10px)}
+    100% {opacity: 1;
+    transform: translateY(0)}
+}
+
+/*  border animation
+    from https://codepen.io/t_afif/pen/ExQLWNE */
+
+.cardBorder {
+    --g: 4px;
+    --b: 5px; 
+    --c: #fff; 
+    
+    
+    padding: calc(var(--g) + var(--b));
+    --_c: #0000 0 25%, var(--c) 0 50%;
+    --_g1: repeating-linear-gradient(90deg ,var(--_c)) repeat-x;
+    --_g2: repeating-linear-gradient(180deg,var(--_c)) repeat-y;
+    background:
+      var(--_g1) var(--_p, 25%) 0   ,var(--_g2) 0    var(--_p,125%),
+      var(--_g1) var(--_p,125%) 100%,var(--_g2) 100% var(--_p, 25%);
+    background-size: 200% var(--b),var(--b) 200%;
+    cursor: pointer;
+    filter: grayscale(50%);
+    transition: .3s;
+  }
+  .cardBorder:hover {
+    --_p: 75%;
+  } 
+
+
+/*  box animation
+    from https://codepen.io/inyoung1/pen/gZVdeX */
+
+.box {
+    position: relative;
+}
+
+.box:after,
+.box:before {
+    mix-blend-mode: multiply;
+    filter: none;
+    z-index: -1;
+    content: '';
+    width: calc(100% + (50px * 2));
+    height: calc(100% + (50px * 2));
+    position: absolute;
+    display: block;
+    animation: border 10s ease-in-out infinite;
+    transform: translateX(-50px) translateY(-50px);
+}
+
+@keyframes border {
+
+    0%,
+    100% {
+        -webkit-clip-path: polygon(0 0, calc(100% - (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 100%, calc(0% + (33.3333333333px)) calc(100% - (33.3333333333px)));
+        clip-path: polygon(0 0, calc(100% - (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 100%, calc(0% + (33.3333333333px)) calc(100% - (33.3333333333px)));
+    }
+
+    50% {
+        -webkit-clip-path: polygon(calc(0% + (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 0, calc(100% - (33.3333333333px)) calc(100% - (33.3333333333px)), 0 100%);
+        clip-path: polygon(calc(0% + (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 0, calc(100% - (33.3333333333px)) calc(100% - (33.3333333333px)), 0 100%);
+    }
+}
+
+.box:before {
+    background-color: #818cf8;
+    clip-path: polygon(calc(0% + (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 0, calc(100% - (33.3333333333px)) calc(100% - (33.3333333333px)), 0 100%);
+}
+
+.active {
+    @apply text-white lg:!bg-slate-300 lg:!text-black underline lg:no-underline rounded-xl
 }

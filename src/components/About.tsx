@@ -5,7 +5,7 @@ const About = () => {
     const { t } = useTranslation();
 
     return (
-        <div className="bg-slate-300 w-full h-full flex flex-col justify-evenly items-center rounded-xl ">
+        <div className="bg-slate-300 w-full h-full flex flex-col justify-evenly items-center rounded-xl boxAnimation">
             <div className='flex flex-col'>
                 <h4 className='text-2xl mb-12 flex justify-center items-center'>{t('about.welcome')}</h4>
                 <h4 className='text-2xl mb-12 text-indigo-800 text-center'>{t('about.title')}</h4>
