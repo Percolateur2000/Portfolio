@@ -6,29 +6,24 @@
       "contact": "Me contacter"
     },
     "home": {
-      "name": "Thomas Guyot",
-      "job": "Developpeur Web Junior FullStack",
-      "location": "Region parisienne - À distance"
+      "name": "Bienvenue, je suis Thomas",
+      "job": "Developpeur Integrateur Web Junior"
     },
-    "contact": {
-      "me": "N'hésitez pas à me contacter !",
-      "linkedin": "LinkedIn",
-      "github": "Mon repo GitHub",
-      "mail": "Par Mail"
-    },
+
     "about": {
-      "welcome": "Bienvenue, je suis Thomas",
-      "title": "Developpeur Web Junior FullStack",
+      "welcome": "Thomas Guyot",
+      "location": "Region parisienne - À distance",
       "onlinecv": "CV en ligne",
       "offlinecv": "CV à télécharger (pdf)",
-      "project": "Mes projets à court terme",
-      "p1": "Quitter la fonction publique pour pouvoir coder à 100%, avec vous ?",
-      "p2": "Je continue de me former, les deux prochaines étapes sont :",
-      "p3": "- Continuer de developper sur TypeScript",
-      "p4": "- Me former sur NextJS"
+      "project": "Je cherche à changer de voie, le Developpement Web est pour moi !",
+      "p1": "J'ai obtenu ma certification* avec Openclassrooms de developpeur integrateur web.",
+      "p2": "A présent je recherche une entreprise qui tranformera ces 6 mois de formation en plusieures années de collaboration.",
+      "p3": "Je suis motivé pour integrer une équipe et participer à un projet qui me proposera un challenge.",
+      "p4": "https://www.francecompetences.fr/recherche/rncp/36076/"
     },
     "projects": {
       "title": "Projets réalisés",
+      "info": "Cliquez sur le projet pour plus d'infos",
       "type1": "Avec OpenClassRooms",
       "type2": "Les projets persos",
       "p1": "Projet 1",
@@ -38,5 +33,11 @@
       "p5": "Projet 5",
       "p6": "Projet 6",
       "p8": "Ce portfolio"
+    },
+    "contact": {
+      "me": "N'hésitez pas à me contacter !",
+      "linkedin": "LinkedIn",
+      "github": "Mon repo GitHub",
+      "mail": "Par Mail"
     }
 }

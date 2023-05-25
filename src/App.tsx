@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
 import Contact from "./components/Contact";
-import Projects from "./components/Projects";
+import Projects from "./components/ProjectsMenu";
 import About from "./components/About";
 import Home from "./components/Home";
 import Card from './components/Card';
@@ -80,7 +80,7 @@ const App = () => {
           <div className="flex justify-between">
           {Object.keys(lngs).map((lng) => (
             <button key={lng} 
-            className={"cardAnimation"} 
+            className={"cardAnimation hover:animate-pulse"} 
             style={{ color: i18n.resolvedLanguage === lng ? "white" : "black", border: i18n.resolvedLanguage === lng ? "white solid 2px" : "", width: "90px", padding: '4px 8px 4px 8px', borderRadius: '10px', backgroundColor: i18n.resolvedLanguage === lng ? '#818cf8' : 'white', fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }} type="submit" onClick={() => i18n.changeLanguage(lng)}>
             {lngs[lng as keyof typeof lngs].nativeName}
             </button>

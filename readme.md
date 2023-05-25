@@ -2,7 +2,7 @@ Codé avec Typscript et TailwindCSS
 
 todo : 
 - Responsif - fait
-- Animations
-- Refonte des couleurs/design - partiel
+- Animations - fait
+- Refonte des couleurs/design - fait
 - Ajout des descriptifs des projets
 - Clean-up
