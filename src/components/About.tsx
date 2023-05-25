@@ -19,8 +19,7 @@ const About = () => {
                 <p>{t('about.p1')}</p>
                 <p>{t('about.p2')}</p>
                 <p>{t('about.p3')}</p>
-                <a href={t('about.p4')} target='_blank'>*Detail de la certification</a>
-            </div>
+</div>
         </div>
     );
 };
