@@ -3,40 +3,102 @@
     "home": "Home",
     "about": "About",
     "projects": "Projects",
-    "contact": "Contact me"
+    "contact": "Contact Me"
   },
   "home": {
-    "name": "Thomas Guyot",
-    "job": "Web Developper Junior Full Stack",
-    "location": "Paris and arround - Remote"
-  },
-  "contact": {
-    "me": "Feel free to contact me !",
-    "linkedin": "LinkedIn",
-    "github": "My repository GitHub",
-    "mail": "Send me a Mail"
+    "name": "Hello, I'm Thomas",
+    "job": "Web Developer Junior"
   },
   "about": {
-    "welcome": "Hello, I am Thomas",
-    "title": "Web Developper Junior Full Stack",
+    "welcome": "Thomas Guyot",
+    "location": "Paris aera  - Remote",
     "onlinecv": "Online resume",
     "offlinecv": "Download my resume (pdf)",
-    "project": "My short term ambition",
-    "p1": "Leave my old job and be a full time coder",
-    "p2": "Meanwhile, I'll keep myself learning :",
-    "p3": "- More on TypeScript",
-    "p4": "- Start to learn NextJS"
-  },
+    "project": "37 yo, professional retraining",
+    "p1": "I want to transform my 6 month of formation with OpenClassRooms to years of experiences.",
+    "p2": "Skills :",
+    "titlecomp1": "Front :",
+    "comp1": "Javascript Vanilla, ReactJS, Tailwind, and learning Typescript.",
+    "titlecomp2": "Back :",
+    "comp2": "NodeJS and Express.",
+    "titlecomp3": "Other :",
+    "comp3": "Git, a bit of Figma. I speak French"
+    },
   "projects": {
-    "title": "Projects I made",
-    "type1": "CodeCamp OpenClassRooms",
-    "type2": "Personal projects",
-    "p1": "Project 1",
-    "p2": "Project 2",
-    "p3": "Project 3",
-    "p4": "Project 4",
-    "p5": "Project 5",
-    "p6": "Project 6",
-    "p8": "This portfolio"
+    "title": "My projects so far",
+    "type1": "With OpenClassRooms",
+    "type2": "My personals projects",
+    "temp": "Working on modals right now",
+    "project": [
+    { "id": "a1",
+      "github": "https://github.com/Percolateur2000/Projet2",
+      "url": "https://percolateur2000.github.io/Projet2/",
+      "urlaccess": "Cliquez ici pour acceder au site",
+      "title": "Booki - Transform a model in a real website with HTML & CSS",
+      "description": "Cliquez ici pour pour acceder au code sur GitHub",
+      "img": "./img/booki.png",
+      "tags" : "HTML CSS"
+    },
+    { "id": "a2",
+      "github": "https://github.com/Percolateur2000/Projet3",
+      "url": "https://percolateur2000.github.io/Projet2/",
+      "urlaccess": "Cliquez ici pour acceder au site",
+      "title": "OhMyFood - Energise a web page with CSS animations",
+      "description": "Cliquez ici pour pour acceder au code sur GitHub",
+      "img": "./img/ohmyfood.png",
+      "tags" : "HTML CSS SASS"
+    },
+    { "id": "a3",
+      "github": "https://github.com/Percolateur2000/Projet4",
+      "url": "https://percolateur2000.github.io/Projet2/",
+      "urlaccess": "Cliquez ici pour acceder au site",
+      "title": "La Panthère - Optimisation of an already existing website",
+      "description": "Cliquez ici pour pour acceder au code sur GitHub",
+      "img": "./img/panthere.png",
+      "tags" : "HTML CSS"
+    },
+    { "id": "a4",
+      "github": "https://github.com/Percolateur2000/Projet5",
+      "url": "https://percolateur2000.github.io/Projet2/",
+      "urlaccess": "Cliquez ici pour acceder au site",
+      "title": "Kanap - Build a vending website with JavaScript",
+      "description": "Cliquez ici pour pour acceder au code sur GitHub",
+      "img": "./img/kanap.png",
+      "tags" : "JavaScript"
+    },
+    { "id": "a5",
+      "github": "https://github.com/Percolateur2000/Projet6",
+      "url": "https://percolateur2000.github.io/Projet2/",
+      "urlaccess": "Cliquez ici pour acceder au site",
+      "title": "Piiquante - Build a secured API for a food application",
+      "description": "Cliquez ici pour pour acceder au code sur GitHub",
+      "img": "./img/piiquante.png",
+      "tags" : "NodeJS MongoDB"
+    },
+    { "id": "a6",
+      "github": "https://github.com/Percolateur2000/Projet7",
+      "url": "https://percolateur2000.github.io/Projet2/",
+      "urlaccess": "Cliquez ici pour acceder au site",
+      "title": "Kasa - Create a web app for apartment rental with React",
+      "description": "Cliquez ici pour pour acceder au code sur GitHub",
+      "img": "./img/kasa.png",
+      "tags" : "React"
+    }],
+    "personalproject" : [
+    { "id": "b1",
+      "github": "https://github.com/Percolateur2000/Portfolio",
+      "url": "https://percolateur2000.github.io/Projet2/",
+      "urlaccess": "Cliquez ici pour acceder au site",
+      "title": "This portfolio - 'Show me what you've got'",
+      "description": "Cliquez ici pour pour acceder au code sur GitHub",
+      "img": "./img/portfolio.png",
+      "tags" : "TypeScript TailwindCSS"
+    }]
+  },
+  "contact": {
+    "me": "Feel free to contact me",
+    "linkedin": "LinkedIn",
+    "github": "My repo GitHub",
+    "mail": "Send a Mail"
   }
 }

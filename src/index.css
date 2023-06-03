@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 #root {
-    @apply h-screen w-screen overflow-hidden
+    @apply h-full w-full overflow-hidden
 }
 
 .cardDecoration {
@@ -15,7 +15,7 @@
 }
 
 .projects {
-    @apply border-2 border-indigo-800 rounded-xl p-2 w-4/5 flex justify-center
+    @apply border-2 border-indigo-800 rounded-xl p-2 w-4/5 flex justify-center text-center
 }
 
 .mMenu {
@@ -38,7 +38,7 @@ body {
 @keyframes fade-in {
     0% {opacity: 0;
     transform: translateY(10px)}
-    100% {opacity: 1;
+    100% {opacity: 0.9;
     transform: translateY(0)}
 }
 
@@ -65,48 +65,7 @@ body {
   }
   .cardBorder:hover {
     --_p: 75%;
-  } 
-
-
-/*  box animation
-    from https://codepen.io/inyoung1/pen/gZVdeX */
-
-.box {
-    position: relative;
-}
-
-.box:after,
-.box:before {
-    mix-blend-mode: multiply;
-    filter: none;
-    z-index: -1;
-    content: '';
-    width: calc(100% + (50px * 2));
-    height: calc(100% + (50px * 2));
-    position: absolute;
-    display: block;
-    animation: border 10s ease-in-out infinite;
-    transform: translateX(-50px) translateY(-50px);
-}
-
-@keyframes border {
-
-    0%,
-    100% {
-        -webkit-clip-path: polygon(0 0, calc(100% - (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 100%, calc(0% + (33.3333333333px)) calc(100% - (33.3333333333px)));
-        clip-path: polygon(0 0, calc(100% - (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 100%, calc(0% + (33.3333333333px)) calc(100% - (33.3333333333px)));
-    }
-
-    50% {
-        -webkit-clip-path: polygon(calc(0% + (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 0, calc(100% - (33.3333333333px)) calc(100% - (33.3333333333px)), 0 100%);
-        clip-path: polygon(calc(0% + (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 0, calc(100% - (33.3333333333px)) calc(100% - (33.3333333333px)), 0 100%);
-    }
-}
-
-.box:before {
-    background-color: #818cf8;
-    clip-path: polygon(calc(0% + (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 0, calc(100% - (33.3333333333px)) calc(100% - (33.3333333333px)), 0 100%);
-}
+  }
 
 .active {
     @apply text-white lg:!bg-slate-300 lg:!text-black underline lg:no-underline rounded-xl
