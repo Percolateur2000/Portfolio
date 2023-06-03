@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
 import Contact from "./components/Contact";
-import Projects from "./components/ProjectsMenu";
+import Projects from "./components/Projects";
 import About from "./components/About";
 import Home from "./components/Home";
 import Card from './components/Card';
@@ -14,6 +14,11 @@ const lngs = {
   en: { nativeName: 'English' }
 };
 
+const mobilelngs = {
+  fr: { nativeName: 'FR' },
+  en: { nativeName: 'EN' }
+};
+
 const App = () => {
 
   const { t, i18n } = useTranslation();
@@ -23,33 +28,45 @@ const App = () => {
       {/* nav on mobile */}
       <div className="lg:hidden h-screen py-2 overflow-hidden">
         <Router>
+          <section className="flex justify-between">
+          <div className="">
         <div className="mMenu">
             <NavLink to="home">
-            Accueil
+            {t('card.home')}
             </NavLink>
           </div>
           <div className="mMenu">
             <NavLink to="about">
-            A propos
+            {t('card.about')}
             </NavLink>
           </div>        
           <div className="mMenu">
             <NavLink to="projects">
-            Projets réalisés
+            {t('card.projects')}
             </NavLink>
           </div>          
           <div className="mMenu pb-3">
             <NavLink to="contact">
-            Me contacter
+            {t('card.contact')}
             </NavLink>
           </div>
+          </div>
+          <div className="flex flex-col mr-5 justify-evenly">
+            {Object.keys(mobilelngs).map((lng) => (
+            <button key={lng} 
+            className={"cardAnimation hover:animate-pulse"} 
+            style={{ color: i18n.resolvedLanguage === lng ? "white" : "black", border: i18n.resolvedLanguage === lng ? "white solid 2px" : "", width: "60px", padding: '4px 8px 4px 8px', borderRadius: '10px', backgroundColor: i18n.resolvedLanguage === lng ? '#818cf8' : 'white', fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }} type="submit" onClick={() => i18n.changeLanguage(lng)}>
+            {mobilelngs[lng as keyof typeof mobilelngs].nativeName}
+            </button>))}
+            </div>
+            </section>
           <div className="h-full w-full">
         <Routes>
           <Route path="*" element={<Home />} />
-          <Route path="home" element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="projects" element={<Projects />} />
-          <Route path="contact" element={<Contact />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         </div>
         </Router>
@@ -90,11 +107,10 @@ const App = () => {
         </div>
         <div className="h-full w-full box">
         <Routes>
-          <Route index element={<Home />} />
-          <Route path="home" element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="projects" element={<Projects />} />
-          <Route path="contact" element={<Contact />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Home />} />
         </Routes>
         </div>
@@ -102,7 +118,7 @@ const App = () => {
     </div>
     </section>
   );
-};
+}; 
   
 export default function WrappedApp() {
   return (
