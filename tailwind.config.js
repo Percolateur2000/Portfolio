@@ -13,6 +13,9 @@ export default {
         'third': '#FFDEB4',
         'fourth': '#FDF7C3',
       },
+      fontFamily: {
+        'mona': ['Mona-Sans', 'sans-serif']
+      }
     },
   },
   plugins: []

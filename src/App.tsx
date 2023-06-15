@@ -20,7 +20,6 @@ const mobilelngs = {
 };
 
 const App = () => {
-
   const { t, i18n } = useTranslation();
 
   return (
