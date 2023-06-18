@@ -14,16 +14,7 @@
       "location": "Region parisienne - À distance",
       "onlinecv": "CV en ligne",
       "offlinecv": "CV à télécharger (pdf)",
-      "project": "37 ans, en reconversion professionnelle",
-      "p1": "Je souhaite transformer mes 6 mois de formation OpenClassRooms en plusieurs années d'experiences.",
-      "p2": "Compétences :",
-      "titlecomp1": "Front :",
-      "comp1": "Javascript Vanilla, ReactJS, Tailwind, Typescript",
-      "titlecomp2": "Back :",
-      "comp2": "NodeJS et Express.",
-      "titlecomp3": "Autres :",
-      "comp3": "Git, un peu de Figma. Anglais courant"
-
+      "project": " A la recherche d'un nouveau challenge, je me suis lancé dans une formation OpenClassrooms de developpeur Web, dans le but de changer de carriere.\n\n Je suis à la recherche d'une place dans une équipe de dev afin de continuer à progresser dans l'acquisition de mes compétences.\n\n Vous pourrez compte sur ma motivation, ma bonne humeur, mes capacités d'apprentissage, et à résoudre des problemes, entre autres.\n\n Je serai ravi d'en discuter, et lever vos dernieres réticences pour vous lancer avec un developpeur junior !"
     },
     "projects": {
       "title": "Projets réalisés",
@@ -40,42 +31,42 @@
         "img": "./img/booki.png",
         "imgmodal": "https://user.oc-static.com/upload/2022/06/20/16557256333819_FR_1155_P3_Banner-Booki.png",
         "tags" : ["HTML ", "CSS"],
-        "objective": " Lorem ipsum dolor sit amet,\n\n consectetur adipiscing elit. Suspendisse dignissim, mauris at dapibus molestie, sem eros placerat arcu, ac hendrerit sem risus aliquet ligula.\n\n Sed a bibendum orci, sed feugiat mauris. Mauris at odio urna. In cursus id est facilisis molestie.\n Fusce eget placerat nisi. Morbi nec convallis metus, vitae luctus nunc. Pellentesque pulvinar hendrerit turpis sed ullamcorper. Sed ac lobortis neque, vitae rutrum dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non vulputate tortor, ac vestibulum ligula.\n Duis sollicitudin, tortor vitae congue placerat, dui lorem ultrices sapien, non congue purus quam et odio. Vestibulum tristique sagittis ultricies. Sed iaculis elit molestie lacus aliquam, vitae suscipit sapien volutpat. Pellentesque eu tristique urna, id mattis nibh. Nam gravida consectetur mollis. Aenean rhoncus est erat, in malesuada ligula tristique ut. Cras sit amet erat magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam erat volutpat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam nec convallis est, id pellentesque sem. Pellentesque dictum magna vitae vestibulum finibus. Nulla vestibulum odio ut ipsum iaculis egestas. Integer ut pulvinar purus. Nam sed leo at augue tristique placerat. Donec bibendum cursus quam eu maximus. Nunc tristique aliquet interdum. Cras eu pulvinar elit. Sed cursus a ante eget tincidunt. Vivamus eget porttitor tellus. Fusce eu augue at sapien vehicula eleifend id mattis mi. "
+        "objective": " Le but de ce premier projet etait de me familiariser avec les bases du developpement web. Je devais utiliser les ressources fournies via Figma et sur pdf pour creer un site en HTML et CSS, et l'utilisation d'animations basiques au survol. Le site devait également etre responsif en mode Ordinateur, tablette et télephone.\n\n J'ai été évalué sur les élements suivants : \n\n- Implémenter une interface responsive\n- Intégrer du contenu conformément à une maquette"
       },
       { "id": "p2",
       "github": "https://github.com/Percolateur2000/Projet3",
       "url": "https://percolateur2000.github.io/Projet3/",
-      "title": "OhMyFood - Dynamisez une page web avec des animations CSS",
+      "title": "OhMyFood - Dynamiser une page web avec des animations CSS",
       "img": "./img/ohmyfood.png",
       "imgmodal": "https://user.oc-static.com/upload/2022/06/22/16559011566667_FR_1117_P4_Banner-Ohmyfood.png",
-      "tags" : ["HTML ", "CSS"],
-      "objective": " Lorem ipsum dolor sit amet,\n\n consectetur adipiscing elit. Suspendisse dignissim, mauris at dapibus molestie, sem eros placerat arcu, ac hendrerit sem risus aliquet ligula.\n\n Sed a bibendum orci, sed feugiat mauris. Mauris at odio urna. In cursus id est facilisis molestie.\n Fusce eget placerat nisi. Morbi nec convallis metus, vitae luctus nunc. Pellentesque pulvinar hendrerit turpis sed ullamcorper. Sed ac lobortis neque, vitae rutrum dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non vulputate tortor, ac vestibulum ligula.\n Duis sollicitudin, tortor vitae congue placerat, dui lorem ultrices sapien, non congue purus quam et odio. Vestibulum tristique sagittis ultricies. Sed iaculis elit molestie lacus aliquam, vitae suscipit sapien volutpat. Pellentesque eu tristique urna, id mattis nibh. Nam gravida consectetur mollis. Aenean rhoncus est erat, in malesuada ligula tristique ut. Cras sit amet erat magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam erat volutpat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam nec convallis est, id pellentesque sem. Pellentesque dictum magna vitae vestibulum finibus. Nulla vestibulum odio ut ipsum iaculis egestas. Integer ut pulvinar purus. Nam sed leo at augue tristique placerat. Donec bibendum cursus quam eu maximus. Nunc tristique aliquet interdum. Cras eu pulvinar elit. Sed cursus a ante eget tincidunt. Vivamus eget porttitor tellus. Fusce eu augue at sapien vehicula eleifend id mattis mi. "
+      "tags" : ["Sass"],
+      "objective": " Ce second projet mettait l'accent sur le \"Mobile first\", la création de plusieurs animations un peu plus poussées et de la navigation multi-pages.\n\n L'évaluation a porté sur les élements suivants :\n\n- Mettre en œuvre des effets CSS graphiques avancés\n- Mettre en place une structure de navigation pour un site web\n- Assurer la cohérence graphique d'un site web\n- Utiliser un système de gestion de versions pour le suivi du projet et son hébergement\n- Mettre en place son environnement Front-End"
     },
       { "id": "p3",
       "github": "https://github.com/Percolateur2000/Projet4",
       "url": "https://percolateur2000.github.io/Projet4/",
-      "title": "La Panthere - Optimisez un site web existant",
+      "title": "La Panthere - Optimiser un site web existant",
       "img": "./img/panthere.png",
       "imgmodal": "https://user.oc-static.com/upload/2022/02/16/16450043954887_cover%20small.png",
-      "tags" : ["HTML ", "CSS"],
-      "objective": " Lorem ipsum dolor sit amet,\n\n consectetur adipiscing elit. Suspendisse dignissim, mauris at dapibus molestie, sem eros placerat arcu, ac hendrerit sem risus aliquet ligula.\n\n Sed a bibendum orci, sed feugiat mauris. Mauris at odio urna. In cursus id est facilisis molestie.\n Fusce eget placerat nisi. Morbi nec convallis metus, vitae luctus nunc. Pellentesque pulvinar hendrerit turpis sed ullamcorper. Sed ac lobortis neque, vitae rutrum dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non vulputate tortor, ac vestibulum ligula.\n Duis sollicitudin, tortor vitae congue placerat, dui lorem ultrices sapien, non congue purus quam et odio. Vestibulum tristique sagittis ultricies. Sed iaculis elit molestie lacus aliquam, vitae suscipit sapien volutpat. Pellentesque eu tristique urna, id mattis nibh. Nam gravida consectetur mollis. Aenean rhoncus est erat, in malesuada ligula tristique ut. Cras sit amet erat magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam erat volutpat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam nec convallis est, id pellentesque sem. Pellentesque dictum magna vitae vestibulum finibus. Nulla vestibulum odio ut ipsum iaculis egestas. Integer ut pulvinar purus. Nam sed leo at augue tristique placerat. Donec bibendum cursus quam eu maximus. Nunc tristique aliquet interdum. Cras eu pulvinar elit. Sed cursus a ante eget tincidunt. Vivamus eget porttitor tellus. Fusce eu augue at sapien vehicula eleifend id mattis mi. "
+      "tags" : ["SEO ","WCAG"],
+      "objective": " Le troisieme projet se concentrait sur la partie SEO et l'optimisation du site, améliorer la taille et la vitesse du chargement, ainsi que l'amélioration de l'accessibilité en suivant les recommandations du WCAG.\n\n Les élements évalués sont les suivants :\n\n- Réaliser une recherche des bonnes pratiques en développement web\n- Écrire un code HTML et CSS maintenable\n- Optimiser la taille et la vitesse d’un site web\n- Assurer l'accessibilité d'un site web\n- Optimiser le référencement d'un site web"
     },
       { "id": "p4",
       "github": "https://github.com/Percolateur2000/Projet5",
       "url": "https://percolateur2000.github.io/Projet5/front/html/index.html",
-      "title": "Kanap - Construisez un site e-commerce en JavaScript",
+      "title": "Kanap - Construire un site e-commerce en JavaScript",
       "img": "./img/kanap.png",
       "imgmodal": "https://user.oc-static.com/upload/2021/09/29/16329291678171_image2.png",
-      "tags" : ["HTML ", "CSS"],
-      "objective": " Lorem ipsum dolor sit amet,\n\n consectetur adipiscing elit. Suspendisse dignissim, mauris at dapibus molestie, sem eros placerat arcu, ac hendrerit sem risus aliquet ligula.\n\n Sed a bibendum orci, sed feugiat mauris. Mauris at odio urna. In cursus id est facilisis molestie.\n Fusce eget placerat nisi. Morbi nec convallis metus, vitae luctus nunc. Pellentesque pulvinar hendrerit turpis sed ullamcorper. Sed ac lobortis neque, vitae rutrum dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non vulputate tortor, ac vestibulum ligula.\n Duis sollicitudin, tortor vitae congue placerat, dui lorem ultrices sapien, non congue purus quam et odio. Vestibulum tristique sagittis ultricies. Sed iaculis elit molestie lacus aliquam, vitae suscipit sapien volutpat. Pellentesque eu tristique urna, id mattis nibh. Nam gravida consectetur mollis. Aenean rhoncus est erat, in malesuada ligula tristique ut. Cras sit amet erat magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam erat volutpat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam nec convallis est, id pellentesque sem. Pellentesque dictum magna vitae vestibulum finibus. Nulla vestibulum odio ut ipsum iaculis egestas. Integer ut pulvinar purus. Nam sed leo at augue tristique placerat. Donec bibendum cursus quam eu maximus. Nunc tristique aliquet interdum. Cras eu pulvinar elit. Sed cursus a ante eget tincidunt. Vivamus eget porttitor tellus. Fusce eu augue at sapien vehicula eleifend id mattis mi. "
+      "tags" : ["Javascript"],
+      "objective": " Ce quatrieme projet introduit Javascript et les API Rest. Plusieurs pages sont existantes, et le JS doit manipuler le DOM pour afficher les elements et modificationsen temps réels.\n\n Les compétences evaluées :\n\n- Créer un plan de test pour une application\n- Valider des données issues de sources externes\n- Interagir avec un web service avec JavaScript\n- Gérer des événements JavaScript"
     },
       { "id": "p5",
       "github": "https://github.com/Percolateur2000/Projet6",
-      "title": "Piiquante - Construisez une API sécurisée pour une application d'avis gastronomiques",
+      "title": "Piiquante - Construire une API sécurisée pour une application d'avis gastronomiques",
       "img": "./img/piiquante.png",
       "imgmodal": "https://user.oc-static.com/upload/2021/07/29/16275605596354_PiiquanteLogo.png",
-      "tags" : ["HTML ", "CSS"],
-      "objective": " Lorem ipsum dolor sit amet,\n\n consectetur adipiscing elit. Suspendisse dignissim, mauris at dapibus molestie, sem eros placerat arcu, ac hendrerit sem risus aliquet ligula.\n\n Sed a bibendum orci, sed feugiat mauris. Mauris at odio urna. In cursus id est facilisis molestie.\n Fusce eget placerat nisi. Morbi nec convallis metus, vitae luctus nunc. Pellentesque pulvinar hendrerit turpis sed ullamcorper. Sed ac lobortis neque, vitae rutrum dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non vulputate tortor, ac vestibulum ligula.\n Duis sollicitudin, tortor vitae congue placerat, dui lorem ultrices sapien, non congue purus quam et odio. Vestibulum tristique sagittis ultricies. Sed iaculis elit molestie lacus aliquam, vitae suscipit sapien volutpat. Pellentesque eu tristique urna, id mattis nibh. Nam gravida consectetur mollis. Aenean rhoncus est erat, in malesuada ligula tristique ut. Cras sit amet erat magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam erat volutpat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam nec convallis est, id pellentesque sem. Pellentesque dictum magna vitae vestibulum finibus. Nulla vestibulum odio ut ipsum iaculis egestas. Integer ut pulvinar purus. Nam sed leo at augue tristique placerat. Donec bibendum cursus quam eu maximus. Nunc tristique aliquet interdum. Cras eu pulvinar elit. Sed cursus a ante eget tincidunt. Vivamus eget porttitor tellus. Fusce eu augue at sapien vehicula eleifend id mattis mi. "
+      "tags" : ["NodeJS ", "Express ", "MongoDB"],
+      "objective": " Ce 5eme projet demandait de creer la partie backend, et la mise en relation avec une base de donnée.\n\n J'ai été évalué sur les élements suivants :\n\n- Mettre en œuvre des opérations CRUD de manière sécurisée\n- Implémenter un modèle logique de données conformément à la réglementation\n- Stocker des données de manière sécurisée"
     },
       { "id": "p6",
       "github": "https://github.com/Percolateur2000/Projet7",
@@ -83,16 +74,16 @@
       "title": "Kasa - Créez une application web de location immobilière avec React",
       "img": "./img/kasa.png",
       "imgmodal": "https://user.oc-static.com/upload/2022/06/24/16560899769906_FR_811_P8_Banner-Kasa%20%281%29.png",
-      "tags" : ["HTML ", "CSS"],
-      "objective": " Lorem ipsum dolor sit amet,\n\n consectetur adipiscing elit. Suspendisse dignissim, mauris at dapibus molestie, sem eros placerat arcu, ac hendrerit sem risus aliquet ligula.\n\n Sed a bibendum orci, sed feugiat mauris. Mauris at odio urna. In cursus id est facilisis molestie.\n Fusce eget placerat nisi. Morbi nec convallis metus, vitae luctus nunc. Pellentesque pulvinar hendrerit turpis sed ullamcorper. Sed ac lobortis neque, vitae rutrum dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non vulputate tortor, ac vestibulum ligula.\n Duis sollicitudin, tortor vitae congue placerat, dui lorem ultrices sapien, non congue purus quam et odio. Vestibulum tristique sagittis ultricies. Sed iaculis elit molestie lacus aliquam, vitae suscipit sapien volutpat. Pellentesque eu tristique urna, id mattis nibh. Nam gravida consectetur mollis. Aenean rhoncus est erat, in malesuada ligula tristique ut. Cras sit amet erat magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam erat volutpat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam nec convallis est, id pellentesque sem. Pellentesque dictum magna vitae vestibulum finibus. Nulla vestibulum odio ut ipsum iaculis egestas. Integer ut pulvinar purus. Nam sed leo at augue tristique placerat. Donec bibendum cursus quam eu maximus. Nunc tristique aliquet interdum. Cras eu pulvinar elit. Sed cursus a ante eget tincidunt. Vivamus eget porttitor tellus. Fusce eu augue at sapien vehicula eleifend id mattis mi. "
+      "tags" : ["ReactJS"],
+      "objective": " Le dernier projet OpenClassrooms avait pour theme la creation d'un site navigable en React, en utiliant les données d'un API, ainsi que l'importance des composants.\n\n Les compétences acquises sont les suivantes :\n\n- Configurer la navigation entre les pages de l'application avec React Router\n- Développer des éléments de l'interface d'un site web grâce à des composants React\n- Initialiser une application avec Create React App"
     }],
       "personalproject" : [
       { "id": "pp1",
       "github": "https://github.com/Percolateur2000/portfolio",
       "title": "Mon porfotfio - It's Showtime !",
       "img": "./img/portfolio.png",
-      "tags" : ["Typescript ", "Tailwind"],
-      "objective": " Lorem ipsum dolor sit amet,\n\n consectetur adipiscing elit. Suspendisse dignissim, mauris at dapibus molestie, sem eros placerat arcu, ac hendrerit sem risus aliquet ligula.\n\n Sed a bibendum orci, sed feugiat mauris. Mauris at odio urna. In cursus id est facilisis molestie.\n Fusce eget placerat nisi. Morbi nec convallis metus, vitae luctus nunc. Pellentesque pulvinar hendrerit turpis sed ullamcorper. Sed ac lobortis neque, vitae rutrum dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non vulputate tortor, ac vestibulum ligula.\n Duis sollicitudin, tortor vitae congue placerat, dui lorem ultrices sapien, non congue purus quam et odio. Vestibulum tristique sagittis ultricies. Sed iaculis elit molestie lacus aliquam, vitae suscipit sapien volutpat. Pellentesque eu tristique urna, id mattis nibh. Nam gravida consectetur mollis. Aenean rhoncus est erat, in malesuada ligula tristique ut. Cras sit amet erat magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam erat volutpat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam nec convallis est, id pellentesque sem. Pellentesque dictum magna vitae vestibulum finibus. Nulla vestibulum odio ut ipsum iaculis egestas. Integer ut pulvinar purus. Nam sed leo at augue tristique placerat. Donec bibendum cursus quam eu maximus. Nunc tristique aliquet interdum. Cras eu pulvinar elit. Sed cursus a ante eget tincidunt. Vivamus eget porttitor tellus. Fusce eu augue at sapien vehicula eleifend id mattis mi. "
+      "tags" : ["Typescript ", "Tailwind ", "i18n"],
+      "objective": " Mon premier projet en solo ! Je me suis lancé sur deux tech que je n'avais pas vu en formation. Typescript n'etait peut-etre pas adpaté à un simple portfolio, mais l'important etait de me familiariser avec ce langage \"orienté objet\".\n\n Concernant Tailwind, quelques lignes ont suffit pour en comprendre le fonctionnement, et ce portoflio pour decouvrir les subtilités et spécifications.\n\n J'ai également découvert i18next, qui m'a permis d'avoir mon site aussi en anglais d'un simple bouton, et la gestion du contenu depuis un fichier json."
     }]
     },
     "contact": {

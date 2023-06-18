@@ -572,6 +572,10 @@ video {
   margin: 1rem;
 }
 
+.m-10 {
+  margin: 2.5rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -654,6 +658,10 @@ video {
 
 .w-screen {
   width: 100vw;
+}
+
+.w-2\/5 {
+  width: 40%;
 }
 
 .resize {
@@ -785,6 +793,10 @@ video {
   padding: 4px;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -828,8 +840,40 @@ video {
   padding-top: 2rem;
 }
 
+.pb-12 {
+  padding-bottom: 3rem;
+}
+
+.pb-40 {
+  padding-bottom: 10rem;
+}
+
+.pb-44 {
+  padding-bottom: 11rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.pt-36 {
+  padding-top: 9rem;
+}
+
+.pt-48 {
+  padding-top: 12rem;
+}
+
+.pt-56 {
+  padding-top: 14rem;
+}
+
 .text-center {
   text-align: center;
+}
+
+.align-middle {
+  vertical-align: middle;
 }
 
 .text-2xl {
@@ -1112,5 +1156,13 @@ body {
 
   .lg\:pb-8 {
     padding-bottom: 2rem;
+  }
+
+  .lg\:pt-4 {
+    padding-top: 1rem;
+  }
+
+  .lg\:pb-4 {
+    padding-bottom: 1rem;
   }
 }
