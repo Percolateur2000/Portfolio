@@ -10,7 +10,7 @@ const About = () => {
         <h2 className='pb-10 underline text-lg'>{t('about.location')}</h2>
         <div className='flex lg:gap-8 gap-4 lg:flex-row flex-col pb-10'>
             <a className='rounded-2xl border-black border-2 p-2 flex justify-center' target="_blank" href="https://cvdesignr.com/p/62bb4ad5b2283">{t('about.onlinecv')}</a>
-            <a className='rounded-2xl border-black border-2 p-2 flex justify-center' target="_blank" href="./public/cv.pdf">{t('about.offlinecv')}</a>
+            <a className='rounded-2xl border-black border-2 p-2 flex justify-center' target="_blank" href="./cv.pdf">{t('about.offlinecv')}</a>
         </div>
         <span className='whitespace-pre-wrap flex text-center'>{t('about.project')}</span>
         </div>

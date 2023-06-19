@@ -4,9 +4,9 @@
 
 @font-face {
     font-family: "Mona-Sans";
-    src: url("../public/fonts/Mona-Sans.ttf");
-    src: url("../public/fonts/Mona-Sans.woff");
-    src: url("../public/fonts/Mona-Sans.woff2");
+    src: url("../fonts/Mona-Sans.ttf");
+    src: url("../fonts/Mona-Sans.woff");
+    src: url("../fonts/Mona-Sans.woff2");
 }
 
 #root {

@@ -25,7 +25,7 @@ export default function Modal(props: ModalType) {
         <div className="modal-overlay" onClick={props.toggle}>
           <div className="modal-box overflow-auto m-2 lg:justify-center">
             <h3 className="text-center underline font-bold text-lg">{props.title}</h3>
-            {props.imgmodal ? <img src={props.imgmodal} alt={props.title} className="m-4 rounded-xl lg:w-[30%] w-3/6 h-auto self-center"/> : ""}
+            {props.imgmodal ? <img src={props.imgmodal} alt={props.title} className="m-4 rounded-xl lg:h-1/6 w-auto self-center"/> : ""}
             <span className="m-4 whitespace-pre-wrap w-5/6 self-center mb-6">{props.objective}</span>
             {props.url ? <a href={props.url} target="_blank" className="p-2 border-black border-2 m-1 rounded-xl self-center text-center w-5/6">{t('projects.urlaccess')}</a> : ""}
             <a href={props.github} target="_blank" className="p-2 border-black border-2 m-1 rounded-xl self-center text-center w-5/6">{t('projects.urlgit')}</a>

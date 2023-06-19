@@ -1,104 +1,95 @@
 {
-  "card": {
-    "home": "Home",
-    "about": "About",
-    "projects": "Projects",
-    "contact": "Contact Me"
-  },
-  "home": {
-    "name": "Hello, I'm Thomas",
-    "job": "Web Developer Junior"
-  },
-  "about": {
-    "welcome": "Thomas Guyot",
-    "location": "Paris aera  - Remote",
-    "onlinecv": "Online resume",
-    "offlinecv": "Download my resume (pdf)",
-    "project": "37 yo, professional retraining",
-    "p1": "I want to transform my 6 month of formation with OpenClassRooms to years of experiences.",
-    "p2": "Skills :",
-    "titlecomp1": "Front :",
-    "comp1": "Javascript Vanilla, ReactJS, Tailwind, and learning Typescript.",
-    "titlecomp2": "Back :",
-    "comp2": "NodeJS and Express.",
-    "titlecomp3": "Other :",
-    "comp3": "Git, a bit of Figma. I speak French"
+    "card": {
+      "home": "Home",
+      "about": "About",
+      "projects": "Projects",
+      "contact": "Contact"
     },
-  "projects": {
-    "title": "My projects so far",
-    "type1": "With OpenClassRooms",
-    "type2": "My personals projects",
-    "temp": "Working on modals right now",
-    "project": [
-    { "id": "a1",
-      "github": "https://github.com/Percolateur2000/Projet2",
-      "url": "https://percolateur2000.github.io/Projet2/",
-      "urlaccess": "Cliquez ici pour acceder au site",
-      "title": "Booki - Transform a model in a real website with HTML & CSS",
-      "description": "Cliquez ici pour pour acceder au code sur GitHub",
-      "img": "./img/booki.png",
-      "tags" : "HTML CSS"
+    "home": {
+      "name": "Welcome, I am Thomas",
+      "job": "Web developer Junior"
     },
-    { "id": "a2",
+    "about": {
+      "welcome": "Thomas Guyot",
+      "location": "Paris and around - Hybrid - Remote",
+      "onlinecv": "Online resume",
+      "offlinecv": "Download my resume (pdf)",
+      "project": " Looking for a new challenge, I started a formation with OpenClassrooms as a web developper, a domain i've yearned for a long time.\n\n I'm in search of a team which will help me progress in acquiring new skills and continue to improve myself.\n\n You can count on my motivation, my good mood, my learning skills and my tenacity to solve problems.\n\n I will be delighted to discuss it with you and remove your last reluctance to embark on a lasting partnership with me."
+    },
+    "projects": {
+      "title": "Projects achieved",
+      "type1": "With OpenClassRooms",
+      "type2": "Personal projects",
+      "urlaccess": "Click here to access the website",
+      "urlgit": "Click here to access the code on Github",
+
+      "project": [
+      { "id": "p1",
+        "github": "https://github.com/Percolateur2000/Projet2",
+        "url": "https://percolateur2000.github.io/Projet2/",
+        "title": "Booki - Transform a model into a website with HTML & CSS",
+        "img": "./img/booki.png",
+        "imgmodal": "https://user.oc-static.com/upload/2022/06/20/16557256333819_FR_1155_P3_Banner-Booki.png",
+        "tags" : ["HTML ", "CSS"],
+        "objective": " The goal of this first project was to familiarize myself with the basics of web development. I had to use the resources provided via Figma and on pdf to create a site in HTML and CSS, and the use of basic hover animations. The site also had to be responsive in computer, tablet and phone mode.\n\n I was evaluated on the following elements :\n\n- Iimplement a responsive interface\n- Integrate content according to a model"
+      },
+      { "id": "p2",
       "github": "https://github.com/Percolateur2000/Projet3",
-      "url": "https://percolateur2000.github.io/Projet2/",
-      "urlaccess": "Cliquez ici pour acceder au site",
-      "title": "OhMyFood - Energise a web page with CSS animations",
-      "description": "Cliquez ici pour pour acceder au code sur GitHub",
+      "url": "https://percolateur2000.github.io/Projet3/",
+      "title": "OhMyFood - Energize a web page with CSS animations",
       "img": "./img/ohmyfood.png",
-      "tags" : "HTML CSS SASS"
+      "imgmodal": "https://user.oc-static.com/upload/2022/06/22/16559011566667_FR_1117_P4_Banner-Ohmyfood.png",
+      "tags" : ["Sass"],
+      "objective": " This second project focused on \"Mobile first\", the creation of several slightly more advanced animations and multi-page navigation.\n\n The evaluation focused on the following elements :\n\n- Implementing advanced CSS graphic effects\n- Setting up a navigation structure for a website\n- Ensuring the graphic consistency of a website\n- Use a version management system for project monitoring and hosting\n- Set up your Front-End environment"
     },
-    { "id": "a3",
+      { "id": "p3",
       "github": "https://github.com/Percolateur2000/Projet4",
-      "url": "https://percolateur2000.github.io/Projet2/",
-      "urlaccess": "Cliquez ici pour acceder au site",
-      "title": "La Panthère - Optimisation of an already existing website",
-      "description": "Cliquez ici pour pour acceder au code sur GitHub",
+      "url": "https://percolateur2000.github.io/Projet4/",
+      "title": "La Panthere - Optimizing an existing website",
       "img": "./img/panthere.png",
-      "tags" : "HTML CSS"
+      "imgmodal": "https://user.oc-static.com/upload/2022/02/16/16450043954887_cover%20small.png",
+      "tags" : ["SEO ","WCAG"],
+      "objective": " The third project focused on the SEO part and the optimization of the site, improving the size and the speed of the loading, as well as the improvement of the accessibility by following the recommendations of the WCAG.\n\n The elements evaluated are the following:\n\n- Research best practices in web development\n- Write maintainable HTML and CSS code\n- Optimize the size and speed of a website\n- Ensure the accessibility of a website\n- Optimize the SEO of a website"
     },
-    { "id": "a4",
+      { "id": "p4",
       "github": "https://github.com/Percolateur2000/Projet5",
-      "url": "https://percolateur2000.github.io/Projet2/",
-      "urlaccess": "Cliquez ici pour acceder au site",
-      "title": "Kanap - Build a vending website with JavaScript",
-      "description": "Cliquez ici pour pour acceder au code sur GitHub",
+      "url": "https://percolateur2000.github.io/Projet5/front/html/index.html",
+      "title": "Kanap - Building an e-commerce site in JavaScript",
       "img": "./img/kanap.png",
-      "tags" : "JavaScript"
+      "imgmodal": "https://kanap.gtnsimon.dev/front/images/logo.png",
+      "tags" : ["Javascript"],
+      "objective": " This fourth project introduces Javascript and Rest APIs. Several pages exist, and the JS must manipulate the DOM to display the elements and modifications in real time.\n\n Skills assessed:\n\n- Create a test plan for an application\n- Validate data from external sources\n- Interact with a web service with JavaScript\n- Handle JavaScript events"
     },
-    { "id": "a5",
+      { "id": "p5",
       "github": "https://github.com/Percolateur2000/Projet6",
-      "url": "https://percolateur2000.github.io/Projet2/",
-      "urlaccess": "Cliquez ici pour acceder au site",
-      "title": "Piiquante - Build a secured API for a food application",
-      "description": "Cliquez ici pour pour acceder au code sur GitHub",
+      "title": "Piiquante - Build a secure API for a food reviews app",
       "img": "./img/piiquante.png",
-      "tags" : "NodeJS MongoDB"
+      "imgmodal": "https://user.oc-static.com/upload/2021/07/29/16275605596354_PiiquanteLogo.png",
+      "tags" : ["NodeJS ", "Express ", "MongoDB"],
+      "objective": " This 5th project required to create the backend part, and the connection with a database.\n\nI was evaluated on the following elements:\n\n- Implement CRUD operations in a secure way\n- Implement a logical data model in accordance with regulations\n- Store data securely"
     },
-    { "id": "a6",
+      { "id": "p6",
       "github": "https://github.com/Percolateur2000/Projet7",
-      "url": "https://percolateur2000.github.io/Projet2/",
-      "urlaccess": "Cliquez ici pour acceder au site",
-      "title": "Kasa - Create a web app for apartment rental with React",
-      "description": "Cliquez ici pour pour acceder au code sur GitHub",
+      "url": "https://projet7-taupe.vercel.app/",
+      "title": "Kasa - Create a real estate rental web application with React",
       "img": "./img/kasa.png",
-      "tags" : "React"
+      "imgmodal": "https://user.oc-static.com/upload/2022/06/24/16560899769906_FR_811_P8_Banner-Kasa%20%281%29.png",
+      "tags" : ["ReactJS"],
+      "objective": " The last OpenClassrooms project focused on creating a navigable site in React, using data from an API, as well as the importance of components.\n\nThe skills learned are as follows:\n\n- Configure navigation between application pages with React Router\n- Develop interface elements of a website using React components\n- Initialize an application with Create React App"
     }],
-    "personalproject" : [
-    { "id": "b1",
-      "github": "https://github.com/Percolateur2000/Portfolio",
-      "url": "https://percolateur2000.github.io/Projet2/",
-      "urlaccess": "Cliquez ici pour acceder au site",
-      "title": "This portfolio - 'Show me what you've got'",
-      "description": "Cliquez ici pour pour acceder au code sur GitHub",
+      "personalproject" : [
+      { "id": "pp1",
+      "github": "https://github.com/Percolateur2000/portfolio",
+      "title": "This portfolio - It's Showtime !",
       "img": "./img/portfolio.png",
-      "tags" : "TypeScript TailwindCSS"
+      "tags" : ["Typescript ", "Tailwind ", "i18n"],
+      "objective": " My first solo project! I started on two tech that I had not seen in training. Typescript was perhaps not suitable for a simple portfolio, but the important thing was to familiarize myself with this \"object-oriented\" language.\n\n Concerning Tailwind, a few lines were enough to understand how it works, and this portoflio to discover the subtleties and specifications.\n\n I also discovered i18next, which allowed me to have my site also in English with a simple button, and content management from a json file."
     }]
-  },
-  "contact": {
-    "me": "Feel free to contact me",
-    "linkedin": "LinkedIn",
-    "github": "My repo GitHub",
-    "mail": "Send a Mail"
-  }
+    },
+    "contact": {
+      "me": "Feel free to contact me !",
+      "linkedin": "LinkedIn",
+      "github": "My GitHub",
+      "mail": "Send a Mail"
+    }
 }

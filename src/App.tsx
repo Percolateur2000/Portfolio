@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, Navigate } from "react-router-dom";
 import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
@@ -61,11 +61,11 @@ const App = () => {
             </section>
           <div className="h-full w-full">
         <Routes>
-          <Route path="/*" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/*" element={<Home />} />
         </Routes>
         </div>
         </Router>
@@ -106,6 +106,7 @@ const App = () => {
         </div>
         <div className="h-full w-full box">
         <Routes>
+          <Route index element={<Navigate to="/home" />} />
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
